@@ -1,0 +1,41 @@
+$bg-01: rgba(2, 2, 2, 0.685);
+$color: #fff;
+$width: 90%;
+
+.review{
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+.review__img--div{
+    position: relative;
+    left: 400px;
+
+
+    .review__img{
+        border-radius: 103px;
+        padding: 25px;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+
+.review__legend{
+    background-color: $bg-01;
+    padding: 15px;
+    border-radius:20px;
+    color: $color;
+
+    h1{
+        text-align: center;
+    }
+}
