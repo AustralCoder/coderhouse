@@ -3,6 +3,9 @@
   text-align: center;
   font-size: 40px;
 }
+.review h2:hover {
+  text-decoration: underline;
+}
 .review p {
   text-align: center;
   font-size: 25px;
