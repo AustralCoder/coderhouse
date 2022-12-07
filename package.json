@@ -1,0 +1,26 @@
+{
+  "name": "jorgekelly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --include-path scss scss/style.css css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "css": "sass --watch styles/scss:styles/css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustralCoder/coderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustralCoder/coderhouse/issues"
+  },
+  "homepage": "https://github.com/AustralCoder/coderhouse#readme",
+  "dependencies": {
+    
+  }
+}
