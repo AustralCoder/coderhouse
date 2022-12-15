@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+@mixin flexbox{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    padding-top: 5em
+}
+

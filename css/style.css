@@ -33,6 +33,47 @@
   text-align: center;
 }
 
+.restaurantes {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+  padding-top: 5em;
+}
+
+.restaurantes__contacto {
+  text-decoration: none;
+  background-color: rgb(13, 110, 253);
+  color: #fff;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.restaurante-1 {
+  box-shadow: 3px 3px 5px 0px;
+}
+
+.restaurante-2 {
+  box-shadow: 3px 3px 5px 0px;
+}
+
+.restaurante-3 {
+  box-shadow: 3px 3px 5px 0px;
+}
+
+.restaurante-4 {
+  box-shadow: 3px 3px 5px 0px;
+  box-shadow: 2px 2px 15px blue;
+}
+
+.card-text, .cards__text {
+  line-height: 1.7;
+  letter-spacing: 1.5;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
 * {
   padding: 0;
   margin: 0;

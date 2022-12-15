@@ -1,0 +1,26 @@
+@use 'mixins';
+@import "maps";
+
+.restaurantes{
+    @include mixins.flexbox;
+}
+
+.restaurantes__contacto{
+    text-decoration: none;
+    background-color: map-get($colores, secundario);
+    color: map-get($colores, light);
+    padding: 4px;
+    border-radius: 6px;
+}
+
+@for $restaurantes from 1 through 4{
+    .restaurante-#{$restaurantes}{
+        box-shadow: 3px 3px 5px 0px;
+
+        @if $restaurantes == 4 {
+            box-shadow: 2px 2px 15px blue;
+        }
+    }
+
+
+}
