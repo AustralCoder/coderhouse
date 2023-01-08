@@ -33,6 +33,14 @@
   text-align: center;
 }
 
+@media (min-width: 320px) and (max-width: 1024px) {
+  .review__img {
+    position: relative;
+    max-width: 300px;
+    max-height: 400px;
+    right: 460px;
+  }
+}
 .restaurantes {
   display: flex;
   gap: 1em;
@@ -74,6 +82,30 @@
   overflow-wrap: break-word;
 }
 
+.contact__info {
+  text-align: center;
+}
+
+.contact__map {
+  position: relative;
+  left: 250px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .contact__map {
+    position: relative;
+    left: 0;
+    right: 400px;
+    max-width: 200px;
+    max-height: 350px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  .hoteles__boton {
+    position: relative;
+    right: 60px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -83,7 +115,7 @@
 body {
   background: #bbb;
   font-family: "Raleway", sans-serif;
-  background-image: url(../src/river-g5d45d51b0_1920.jpg);
+  background-image: url(../src/bgimg.jpg);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
