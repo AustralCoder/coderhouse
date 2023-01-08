@@ -3,6 +3,8 @@
 @import "restaurantes";
 @import "extend";
 @import "maps";
+@import "contact";
+@import "hoteles";
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +14,7 @@
 body{
     background: #bbb;
     font-family: 'Raleway', sans-serif;
-    background-image: url(../src/river-g5d45d51b0_1920.jpg);
+    background-image: url(../src/bgimg.jpg);
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: cover;

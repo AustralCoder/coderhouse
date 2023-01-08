@@ -44,3 +44,14 @@ $width: 90%;
         text-align: center;
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+    .review__img{
+        position: relative;
+        max-width: 300px;
+        max-height: 400px;
+        right: 460px;
+    }
+}

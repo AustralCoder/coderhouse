@@ -1,0 +1,20 @@
+.contact__info{
+    text-align: center;
+}
+
+
+.contact__map{
+    position: relative;
+    left: 250px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+    .contact__map{
+        position: relative;
+        left: 0;
+        right: 400px;
+        max-width: 200px;
+        max-height: 350px;
+    }
+}
